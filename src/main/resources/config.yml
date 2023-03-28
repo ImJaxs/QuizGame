@@ -1,0 +1,39 @@
+#
+# General Settings
+#
+games-settings:
+  generals:
+    # Remove messages that don't contain the right answer
+    remove-other-messages: true
+    # Waiting time before the quiz starts
+    waiting-quiz-time: 5
+    # Waiting time in seconds between one question and another
+    waiting-question-time: 3
+  # Category list
+  categories:
+    '1':
+      # Category name
+      name: "Category"
+      # List of questions in this category
+      question-list:
+        '1':
+          question: "Question 1?"
+          answers:
+            - "1"
+        '2':
+          question: "Question 2?"
+          answers:
+            - "2"
+        '3':
+          question: "Question 3?"
+          answers:
+            - "3"
+#
+# Database settings
+#
+database-credentials:
+  hostname: "localhost"
+  port: 3306
+  database: "minecraft"
+  username: "root"
+  password: "root"

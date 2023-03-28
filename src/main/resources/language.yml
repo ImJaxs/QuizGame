@@ -1,0 +1,31 @@
+no-console: "&4&LERROR &cCommand for player only."
+no-permission: "&4&LERROR &cYou do not have permission for this command."
+no-subcommand: "&4&LERROR &cThis subcommand does not exist."
+no-correct-usage: "&4&LERROR &cUse %usage%."
+
+# The %quiz_time% placeholder is static so it will return the value entered in the config
+quiz-start: "&6&lQUIZ &eA quiz on the %category% category will start in %quiz_time% seconds."
+quiz-end: "&6&lQUIZ &eThe quiz you were taking has ended."
+# The %seconds% placeholder will return the value in seconds of the time it took to respond
+quiz-right-question: "&6&lQUIZ &e%player% answered the question correctly in %seconds%s."
+# The %seconds% placeholder changes depending on how many seconds have passed
+quiz-question-delay:
+  title: "&e&l%seconds% SECONDS"
+  subtitle: "&e&lTO THE NEXT QUESTION"
+
+quiz-user-command-check: "&6&lQUIZ &e%points% points."
+
+quiz-admin-command-help:
+  - "&6&lCOMMANDS"
+  - " &f&l* &e/qadmin categories"
+  - " &f&l* &e/qadmin start <category>"
+  - " &f&l* &e/qadmin check <player>"
+quiz-admin-command-no-categories: "&4&LERROR &cThere are currently no categories loaded."
+quiz-admin-command-categories: "&6&lQUIZ &eCategories: %categories%."
+
+quiz-admin-command-start-already-quiz: "&4&LERROR &cAt the moment there is already another quiz running."
+quiz-admin-command-start-category-not-found: "&4&LERROR &cThis category does not seem to exist."
+quiz-admin-command-start: "&6&lQUIZ &eYou have started a quiz in the %category% category."
+
+quiz-admin-command-check-no-player: "&4&LERROR &cThis player is not in the database."
+quiz-admin-command-check-player: "&6&lQUIZ &e%player% has %points% points."

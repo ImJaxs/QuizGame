@@ -1,0 +1,11 @@
+name: QuizGame
+version: '${project.version}'
+main: me.imjaxs.devroom.quizgame.QuizGamePlugin
+api-version: 1.19
+load: STARTUP
+authors: [ ImJaxs ]
+commands:
+  quiz:
+    description: User command
+  qadmin:
+    description: Admin commands
